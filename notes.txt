@@ -1,0 +1,41 @@
+# Notes
+
+## let declares variable, so don't use twice when changing variable.
+
+let message = 'hi';
+
+message = 'hello';
+
+alert(message); 
+
+## const for unchanging variables
+
+const myBirthday = '18.04.1982';
+
+myBirthday = '01.01.2001'; // error, can't reassign the constant!
+
+When should we use capitals for a constant and when should we name it normally? Let’s make that clear.
+
+Being a “constant” just means that a variable’s value never changes. But some constants are known before execution (like a hexadecimal value for red) and some constants are calculated in run-time, during the execution, but do not change after their initial assignment.
+
+For instance:
+
+const pageLoadTime = /* time taken by a webpage to load */;
+The value of pageLoadTime is not known before the page load, so it’s named normally. But it’s still a constant because it doesn’t change after the assignment.
+
+Declare two variables: admin and name.
+let admin;
+let name;
+Assign the value "John" to name.
+name = 'John';
+Copy the value from name to admin.
+admin = name;
+Show the value of admin using alert (must output “John”).
+alert(admin)
+
+Giving the right name
+importance: 3
+Create a variable with the name of our planet. How would you name such a variable?
+const ourPlanetName = 'Earth';
+Create a variable to store the name of a current visitor to a website. How would you name that variable?
+let currentVisitor = 'Jake';
