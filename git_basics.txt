@@ -1,0 +1,13 @@
+# 1. Make sure you are on your branch
+git checkout my-branch
+
+# 2. Stage your modified files
+git add .
+
+# 3. Commit them to your local history
+git commit -m "Describe your changes here"
+
+# 4. Push them up to GitHub
+git push origin my-branch
+
+Remember to git pull at start of session (or rebase if working on own unshared branch)
